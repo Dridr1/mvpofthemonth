@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranking Table</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="loading hidden">
+        <img class="loading-animation" src="assets/loading.gif" alt="loading">
+    </div>
+    <h1>MVP OF THE MONTH</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Player</th>
+                    <th>Win-Rate</th>
+                    <th>Vitórias</th>
+                    <th>Derrotas</th>
+                </tr>
+            </thead>
+            <tbody class="table-content">
+            </tbody>
+        </table>
+        <button onclick="updateRanking()">ATUALIZAR RANK</button>
+        <p class="update-time"></p>
+    </div>
+    <script crossorigin="anonymous" src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
