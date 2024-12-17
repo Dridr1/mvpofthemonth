@@ -6,8 +6,12 @@
 }
 h1{
     font-family: "Press Start 2P", system-ui;
+}
+
+.title-box{
+    top:1%;
     position: fixed;
-    top:3%;
+    text-align: center;
 }
 
 body {
@@ -27,7 +31,8 @@ body {
 }
 
 table {
-    width: 56vw;
+    min-width: 30%;
+    max-width: 80vw;
     margin: 0 auto;
     border-collapse: collapse;
     background-color: #16213e;
@@ -73,6 +78,10 @@ button:hover {
     color: #fff;
 }
 
+.player-name{
+    text-align: left;
+}
+
 .loading {
     display: flex;
     justify-content: center;
@@ -89,4 +98,5 @@ button:hover {
 
 .loading-animation{
     opacity: 1;
+    max-width: 70%;
 }

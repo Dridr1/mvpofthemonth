@@ -21,7 +21,7 @@ const printdata = async () => {
             const winRate = (player.winRate).toFixed(2) + '%';
             tr.innerHTML = `
             <td>${index + 1}</td>
-            <td>${player.gameName}</td>
+            <td class="player-name">${player.gameName}</td>
             <td>${winRate}</td>
             <td>${player.wins}</td>
             <td>${player.lose}</td>
